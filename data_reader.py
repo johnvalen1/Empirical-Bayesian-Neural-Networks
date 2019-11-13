@@ -9,6 +9,9 @@ Separate file for medical data.
 For MNIST data:
 https://nextjournal.com/gkoehler/pytorch-mnist
 
+Note that for MNIST: the values 0.1307 and 0.3081 used for the Normalize() transformation below are the 
+global mean and standard deviation of the MNIST dataset, we'll take them as a given here.
+
 
 For CIFAR-10 data:
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
